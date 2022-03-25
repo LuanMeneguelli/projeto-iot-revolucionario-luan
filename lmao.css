@@ -1,26 +1,18 @@
 .header {
 
-
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
     width: 100%;
     margin-top: 0%;
-    border-bottom: 3px aquamarine solid;
-
-}
-
-h1 {
-
-
-    color: rgb(65, 21, 185);
-    margin-top: 0px;
-
+    border-bottom: 3px #32b9cd solid;
+    height: 100px;
+    align-items: center;
+    display: flex;
 }
 
 .ronaldo {
 
-    color: rgb(52, 30, 175);
+    color: #32b9cd;
     margin-top: 15px;
-    margin-left: 100px;
 
 }
 
@@ -33,21 +25,72 @@ body {
 }
 
 .header .container {
-    width: 100%;
-    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+     align-items: center;
+  margin-top: 20px;
+}
+.container{
+    width: 80%;
+    margin: auto;
     display: flex;
-
-
 }
 
 .navi {
     display: flex;
     width: 500px;
-    margin-left: 30%;
     list-style: none;
     align-items: center;
-   justify-content: space-between;   
-   color: orange;
-   font-size: large;
+    justify-content: space-between;   
+    color: orange;
+    font-size: large;
+    padding: 0%;
+}
+p{
+    color: white;
+}  
+
+.banner{
+  height: 500px;
+  background-image: url("bg-jelly-fish-para-home.png");
+  background-size: cover;
+}
+h4{
+    color: rgb(0, 0, 0);
+}
+.banner .card{
+
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: #e75459 3px solid;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 20px;
+}
+.bota{
+    font-family: monospace;
+    margin-top: 20px;
+    border: 0;
+    font-weight: 600;
+    background-color: #e75459;
+    color: white;
+    font-size: 20px ;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+input{
+    height: 30px;
+    border: 2px #e75459 solid;
 
 }
+ .banner h1 {
+     color: #e75459;
+ }
+ .banner h4{
+     color: #e75459
+    ;}
